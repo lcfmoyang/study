@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li:first-child{
+            color: red;
+        } */
+        /* li:nth-child(2){
+            color: purple;
+        }
+        li:nth-child(odd){
+            color: red;
+        }
+        li:nth-child(even){
+            color: blue;
+        } */
+        /* li:last-child{
+            color: blue;
+        } */
+        /* li:nth-child(2n+1){
+            color: red;
+        } */
+        /*亲子代选择器*/
+        .ul1>li{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul1">
+        <li>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        </li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</body>
+</html>
